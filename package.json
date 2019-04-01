@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "|Route |HTTP |Header(s)|Body   |Description | |------|:---:|:-------:|:-----:|:-----------| | `/api/hello?name={name}` | GET | `none` | `none` | Print hello, `{name}` !|",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node.app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinsuhendra/rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinsuhendra/rest-api/issues"
+  },
+  "homepage": "https://github.com/martinsuhendra/rest-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.9.0",
+    "sequelize": "^5.2.8"
+  }
+}
