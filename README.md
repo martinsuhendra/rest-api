@@ -12,4 +12,4 @@
 |`/api/signin`|POST|`none`|`email:String`(**Required**)`,password:String`(**Required**)`|Sign in and get an access token based on credentials
 |`/api/signout`|POST|`none`|`email:String`(**Required**)`,password:String`(**Required**)`|Sign up with a new user info
 
-Access the API via [http://localhost:3000/api](http://localhost:3000/api).
+Access the API via [https://cherry-shortcake-11114.herokuapp.com](https://cherry-shortcake-11114.herokuapp.com).
